@@ -35,6 +35,38 @@ function go(currentStep, nextStep) {
     dBlock.style.display = 'block';
 }
 
+function back(currentStep, backStep) {
+    let dNone, dBlock;
+    if(currentStep == 1) {
+        dNone = firstDiv;
+    }
+
+    else if(currentStep == 2) {
+        dNone = secondDiv;
+    }
+
+    else {
+        dNone = finalDiv;
+    }
+    dNone.style.display = 'none';
+    
+    // ----------------------------
+
+    if(backStep == 1) {
+        dBlock= firstDiv;
+    }
+
+    else if(backStep == 2) {
+        dBlock = secondDiv;
+    }
+
+    else {
+        dBlock = finalDiv;
+    }
+    dBlock.style.display = 'block'
+
+}
+
 // function to validate the fields "inputs" apply borders and calculate in the end.
 
 function validate() {
@@ -87,5 +119,6 @@ function validate() {
             result.innerHTML = "Procure Recomendações Médica.";
         }
         go(2,3);
+        back(2,1)
     }
 }
