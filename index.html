@@ -12,12 +12,13 @@
     <div class="container">
         <div class="first-step">
             <p>Click no Botão Para Calcular o seu IMC</p>
-            <button>Iniciar</button>
+            <button onclick="go(1,2)">Iniciar</button>
         </div>
 
         <div class="second-step">
             <h3>Calculadora de IMC</h3>
             <hr>
+            <br>
             <label for="peso">Digite seu peso: </label>
                 <input type="number" placeholder="Seu Peso Aqui" id="peso" />
                 <br><br>
@@ -27,17 +28,17 @@
 
                 <br><br>
 
-                <button>Calcular</button>
+                <button onclick="validate()">Calcular</button>
         </div>
 
         <div class="final-step">
             <h3>Resultado!!</h3>
-            <p id="resultado"> ...</p>
-            <button>Calcular Novamente</button>
-            <button>Finalizar </button>
+            <p id="resultado"></p>
+            <button onclick= go(3,2)>Calcular Novamente</button>
+            <button onclick="go(3,1)">Finalizar </button>
         </div>
     
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>

@@ -31,17 +31,19 @@ button:hover {
     background-color: #95B634;
 }
 
-.first-step {
+.final-step, .second-step {
     display: none;
 }
-.second-step{ 
-    display: none;
-}
+
 
 input {
     padding: 0.3em;
     border-radius: 5px;
     border: none;
     outline: none;
+}
+
+#resultado {
+    font-size: 25px;
 }
 
