@@ -61,7 +61,7 @@ function back(currentStep, backStep) {
     }
 
     else {
-        dBlock = finalDiv;
+        //dBlock = finalDiv;
     }
     dBlock.style.display = 'block'
 
