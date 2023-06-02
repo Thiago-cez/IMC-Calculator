@@ -119,6 +119,5 @@ function validate() {
             result.innerHTML = "Procure Recomendações Médica.";
         }
         go(2,3);
-        back(2,1)
     }
 }
