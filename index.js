@@ -67,6 +67,7 @@ function back(currentStep, backStep) {
     dBlock.style.display = 'block'
 
 }*/
+//   --------------------------------------------------------------------------
 
 // function to validate the fields "inputs" apply borders and calculate in the end.
 
@@ -92,7 +93,7 @@ function validate() {
         }
     }
     else {
-        
+
         // -----  IMC Calculation Form ---------------------
         let imc = peso.value / (altura.value * altura.value);
         const result = document.getElementById("resultado")
