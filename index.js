@@ -35,7 +35,7 @@ function go(currentStep, nextStep) {
     dBlock.style.display = 'block';
 }
 
-/*
+
 function back(currentStep, backStep) {
     let dNone, dBlock;
     if(currentStep == 1) {
@@ -66,7 +66,7 @@ function back(currentStep, backStep) {
     }
     dBlock.style.display = 'block'
 
-}*/
+}
 //   --------------------------------------------------------------------------
 
 // function to validate the fields "inputs" apply borders and calculate in the end.
