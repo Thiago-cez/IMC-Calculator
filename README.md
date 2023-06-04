@@ -15,7 +15,7 @@
 <br>
 
 # Demonstração do Projeto
-<P>Teste o Projeto Clicando a seguir: &nbsp;&nbsp;<a href="https://imc-calculator-wheat.vercel.app/" target= "_blank" ><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/></p>
+<P>Teste o Projeto Clicando a seguir: &nbsp;&nbsp;<a target="_blank" href="https://imc-calculator-wheat.vercel.app/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/></p>
 <br>
 
 # Gifs 🎥
