@@ -7,7 +7,7 @@
 <p align="center">Desenvolvido um widget completo e acessível, que pode ser utilizado em vários projetos para, coletar feedbacks e relatórios dos usuários, todo o backend e frontend da aplicação foi feito em ReactJS/ Vite/ TypeScript. e o aplicativo em sua versão mobile Desenvolvido com React Native</p>
 
 <p align="center">
-   <a href="#Demonstração do Projeto">Demonstração do Projeto</a> 
+-    <a href="#Demonstração do Projeto">Demonstração do Projeto</a> * 
    <a href="#Autor">Autor</a>
 </p>
 
