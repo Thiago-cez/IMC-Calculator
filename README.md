@@ -1,5 +1,3 @@
-# IMC-
-
 <div align="center"> 
     <h1>BMI - Calculator  </h1>
   <h3> Program to Calculate the Body Mass Index </h3>
