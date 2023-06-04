@@ -21,11 +21,9 @@
 # Gifs 🎥
 
 <h1>
-    <img title="GIFT" src="ignitelab-gif.gif" />
-    <img title="Photo" src="Captura1.GIF"/>
-    <img title="Photo" src="Captura2.GIF"/>
-    <img title="Photo" src="Captura3.GIF"/>
-    <img title="Photo" src="Captura4.GIF"/>
+    <img title="Photo" src="tela1.JPG"/>
+    <img title="Photo" src="tela2.JPG"/>
+    <img title="Photo" src="tela3.JPG"/>
 </h1>
 
 # Features 
