@@ -74,28 +74,38 @@ function back(currentStep, backStep) {
 function validate() {
     const peso = document.getElementById('peso');
     const altura = document.getElementById('altura');
+    
+    
+    function formatAltura(altura) { 
+        if (altura >= 100) { 
+        return altura / 100; 
+        // If height is greater than or equal to 100, divide by 100 to get decimal format
+        
+        } else { 
+        return altura; 
+        // Otherwise, it keeps the original value (assuming it's already in decimal format)
+         } 
+         
+        } 
 
     
     peso.style.border = "none";
     altura.style.border = "none";
 
-    if(!peso.value || !altura.value) {
-        if(!peso.value && !altura.value) {
+    if (!peso.value || !altura.value || peso.value == 0 || altura.value == 0) {
+        if ((!peso.value || peso.value == 0) && (!altura.value || altura.value == 0)) {
+                peso.style.border = "2px solid red";
+                altura.style.border = "2px solid red";
+        } else if (!peso.value || peso.value == 0) {
+                peso.style.border = "2px solid red";
+        } else {
+                 altura.style.border = "2px solid red";
+        }
+      }
 
-            peso.style.border = "2px solid red";
-            altura.style.border ="2px solid red";
-        }
-        else if(!peso.value) {
-            peso.style.border = "2px solid red";
-        }
-        else {
-            altura.style.border ="2px solid red";
-        }
-    }
     else {
-
         // -----  IMC Calculation Form ---------------------
-        let imc = peso.value / (altura.value * altura.value);
+        let imc = peso.value / (formatAltura * formatAltura);
         const result = document.getElementById("resultado")
         
         // -- IF/ELSE -- to know the person's status IMC -----
@@ -117,8 +127,7 @@ function validate() {
         }
         else {
             result.style.color = "black";
-            result.innerHTML = "Obesidaed grave | Obesidade: III";
-            result.innerHTML = "Procure Recomendações Médica.";
+            result.innerHTML = "Obesidade grave | Obesidade: III | Procure Recomendações Médica.";
         }
         go(2,3);
     }
