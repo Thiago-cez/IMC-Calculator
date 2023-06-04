@@ -105,7 +105,7 @@ function validate() {
 
     else {
         // -----  IMC Calculation Form ---------------------
-        let imc = peso.value / (formatAltura * formatAltura);
+        let imc = peso.value / (formatAltura(altura.value) * formatAltura(altura.value)) ;
         const result = document.getElementById("resultado")
         
         // -- IF/ELSE -- to know the person's status IMC -----
